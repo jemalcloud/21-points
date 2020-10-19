@@ -27,9 +27,9 @@ spring:
             enabled: false
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
-        url: jdbc:postgresql://localhost:5432/twentyonepoints
-        username: twentyonepoints
-        password: 21points
+        url: jdbc:postgresql://localhost:5432/yepdevteam
+        username: yepdevteam
+        password: link@2019
         hikari:
             auto-commit: false
     jpa:
