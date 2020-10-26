@@ -12,7 +12,7 @@
 
 eureka:
     instance:
-        hostname: yep-web-app-testing.herokuapp.com
+        hostname: health-by-points-yep.herokuapp.com
         non-secure-port: 80
         prefer-ip-address: false
     client:
