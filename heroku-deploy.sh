@@ -6,4 +6,4 @@ set -e
 # change the versions in package.json and build.gradle and release before running.
 ./gradlew clean -Pprod bootWar -x test
 #heroku deploy:jar --jar build/libs/*.war --includes newrelic.jar:newrelic.yml
-heroku deploy:jar --jar build/libs/*.war
+heroku deploy:jar  build/libs/*.war --app health-by-points-yep
